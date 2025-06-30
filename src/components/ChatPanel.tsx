@@ -71,7 +71,7 @@ export function ChatPanel({
                     <input
                         type="text"
                         value={inputValue}
-                        onChange={(e) => setInputValue(e.targe.value)}
+                        onChange={(e) => setInputValue(e.target.value)}
                         placeholder="Describe your animation..."
                         disabled={isLoading || !isConnected}
                         className="flex-1 px-3 py-2 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white placeholder-gray-400 text-sm disabled:opacity-50 disabled:cursor-not-allowed"
