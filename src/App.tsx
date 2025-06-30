@@ -216,6 +216,18 @@ class CreateCircle(Scene):
           />
         </div>
       </div>
+      <img
+        src="https://raw.githubusercontent.com/kickiniteasy/bolt-hackathon-badge/main/src/public/bolt-badge/black_circle_360x360/black_circle_360x360.svg"
+        alt="Bolt Hackathon Badge"
+        style={{
+          position: 'fixed',
+          bottom: '20px',
+          right: '20px',
+          width: '100px',
+          height: '100px',
+          zIndex: 1000,
+        }}
+      />
     </div>
   );
 }
